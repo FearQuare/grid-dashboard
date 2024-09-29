@@ -63,7 +63,6 @@ table {
     grid-column: 2 / 3;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .sidebar {
@@ -119,4 +118,67 @@ table {
     fill: #faf5ff;
     display: inline-block;
     vertical-align: middle;
+    margin-right: 1rem;
+}
+
+.up {
+    display: grid;
+    grid-template-columns: 10fr 0.5fr 1fr 3fr;
+}
+
+.up .icons {
+    fill: #c084fc;
+}
+
+.notifications {
+    display: flex;
+}
+
+.notifications .icons {
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+
+input[type=text] {
+    border-radius: 1rem;
+    background-color: #f3e8ff;
+    border-style: none;
+    width: 75%;
+    height: 35%;
+    padding-left: 1rem;
+}
+
+.search-bar {
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%; /* Ensure it takes the full height of its container */
+}
+
+.up img {
+    width: 4rem;
+    height: auto; /* Ensure the aspect ratio is maintained */
+    margin-left: 0.25rem;
+    margin-top: 0.65rem;
+}
+
+.username {
+    display: flex;
+    justify-content: flex-start; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%; /* Ensure it takes the full height of its container */
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.username p {
+    margin-bottom: 0.75rem;
 }
