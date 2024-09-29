@@ -218,4 +218,77 @@ input[type=text] {
     color: #faf5ff;
     justify-self: center;
     align-self: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.card {
+    background-color: white;
+    height: 12rem;
+    width: 30rem;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 25fr;
+    overflow: hidden;
+}
+
+.cards svg {
+    width: 2rem;
+}
+
+.projects {
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.projects h2 {
+    margin-bottom: 1rem;
+}
+
+.deco {
+    height: 100%;
+    background-color: #0891b2;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.card .content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.description {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.actions {
+    display: flex;
+    align-self: self-end;
+    justify-self: end;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    gap: 1rem;
 }
